@@ -10,6 +10,6 @@ public class ScheduledTaskService {
 
     @Scheduled(fixedRate = 5000)
     public void testFixedRate(){
-        log.info("every 5 s, run it");
+//        log.info("every 5 s, run it");
     }
 }
